@@ -529,6 +529,9 @@ ul {
         font-size: 1rem;
         width: 90vw;
     }
+    .benefits{
+        width: 90vw;
+    }
     ul{
         font-size: 0.8rem;
     }
@@ -550,6 +553,9 @@ ul {
 
 /* Medium Mobile (max 425px) */
 @media (max-width: 425px) {
+    body{
+        width: 100vw;
+    } 
     .header h1 { font-size: 2rem; }
     .header .sanskrit-text { font-size: 1.2rem; }
     .header .marathi-description { font-size: 1.1rem; }
@@ -559,6 +565,11 @@ ul {
     .form-header h3 { font-size: 1.4rem; }
     .benefits h2{
         font-size: 1rem;
+    }
+    .benefits{
+        width: 90vw;
+        padding: auto;
+        margin: auto;
     }
     .header-content{
         width: 60vw;
